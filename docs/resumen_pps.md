@@ -8,20 +8,20 @@
 
 | Fase | Objetivo (min) | Real (min) |
 |---|---:|---:|
-| Planeación | 20 | 25 |
+| Planeación | 20 | 28 |
 | Diseño | 40 | 32 |
 | Código | 80 | 48 |
 | Revisión de código | 15 | 7 |
 | Compilación | 15 | 2 |
-| Pruebas | 60 | 15 |
-| Postmortem | 25 | 40 |
-| Total | 255 | 169 |
+| Pruebas | 60 | 20 |
+| Postmortem | 25 | 44 |
+| Total | 255 | 181 |
 
 - Objetivo original: 240 minutos.
 - Objetivo revisado: 255 minutos.
 - Límite global: 390 minutos.
-- Tiempo real: 169 minutos.
-- Diferencia frente al objetivo original: -71 minutos.
+- Tiempo real: 181 minutos.
+- Diferencia frente al objetivo original: -59 minutos.
 
 ## 2. Resultados de calidad
 

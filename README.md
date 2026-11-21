@@ -115,8 +115,6 @@ Análisis y Desarrollo de Software - SENA.
 | Pruebas | [Informe de pruebas](docs/informe_pruebas.md) |
 | Postmortem | [Project Plan Summary](docs/resumen_pps.md) |
 | Postmortem | [Process Improvement Proposal](docs/pip.md) |
-| Postmortem | [Registro de tiempos](docs/registros/time_log.csv) |
-| Postmortem | [Registro de defectos](docs/registros/defect_log.csv) |
 
 ## Documentos PDF
 
@@ -125,32 +123,6 @@ Análisis y Desarrollo de Software - SENA.
 - [Informe de pruebas del Programa 1](docs/03_Informe_Pruebas_Programa1.pdf).
 
 
-
-cat >> README.md <<'EOF'
-
-## Entregables PSP0
-
-| Fase | Documentación |
-|---|---|
-| Planeación | [Requisitos](docs/requisitos.md) |
-| Planeación | [Estimación](docs/estimacion.md) |
-| Diseño | [Diseño del sistema](docs/diseno.md) |
-| Diseño | [Pseudocódigo](docs/pseudocodigo.md) |
-| Diseño | [Diagramas](docs/diagramas/) |
-| Código | [Estándar de codificación](docs/estandar_codificacion.md) |
-| Compilación | [Informe de compilación](docs/informe_compilacion.md) |
-| Pruebas | [Casos de prueba](docs/casos_prueba.md) |
-| Pruebas | [Informe de pruebas](docs/informe_pruebas.md) |
-| Postmortem | [Project Plan Summary](docs/resumen_pps.md) |
-| Postmortem | [Process Improvement Proposal](docs/pip.md) |
-| Postmortem | [Registro de tiempos](docs/registros/time_log.csv) |
-| Postmortem | [Registro de defectos](docs/registros/defect_log.csv) |
-
-## Documentos PDF
-
-- [Requisitos del Programa 1](docs/01_Requisitos_Programa1.pdf).
-- [Diseño del Programa 1](docs/02_Diseno_Programa1.pdf).
-- [Informe de pruebas del Programa 1](docs/03_Informe_Pruebas_Programa1.pdf).
 
 ## Evidencias de ejecución
 

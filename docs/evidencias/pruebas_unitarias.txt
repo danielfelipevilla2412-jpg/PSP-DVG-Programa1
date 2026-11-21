@@ -1,0 +1,44 @@
+Serie de pruebas para C:\Users\danie\OneDrive\Desktop\PSP-DVG-Programa1\tests\Programa1.Tests\bin\Debug\net9.0\Programa1.Tests.dll (.NETCoreApp,Version=v9.0)
+1 archivos de prueba en total coincidieron con el patrón especificado.
+[xUnit.net 00:00:00.00] xUnit.net VSTest Adapter v2.8.2+699d445a1a (64-bit .NET 9.0.17)
+[xUnit.net 00:00:00.06]   Discovering: Programa1.Tests
+[xUnit.net 00:00:00.10]   Discovered:  Programa1.Tests
+[xUnit.net 00:00:00.10]   Starting:    Programa1.Tests
+  Correctas Programa1.Tests.StatisticsServiceTests.Calculate_ShouldHandleDecimalValues [5 ms]
+  Correctas Programa1.Tests.StatisticsServiceTests.Calculate_ShouldReturnExpectedHourStatistics [< 1 ms]
+  Correctas Programa1.Tests.StatisticsServiceTests.Calculate_ShouldRejectNonFiniteValues(invalidValue: -∞) [< 1 ms]
+  Correctas Programa1.Tests.StatisticsServiceTests.Calculate_ShouldRejectNonFiniteValues(invalidValue: NaN) [< 1 ms]
+  Correctas Programa1.Tests.StatisticsServiceTests.Calculate_ShouldRejectNonFiniteValues(invalidValue: ∞) [< 1 ms]
+  Correctas Programa1.Tests.StatisticsServiceTests.Calculate_ShouldRejectNullList [< 1 ms]
+  Correctas Programa1.Tests.StatisticsServiceTests.Calculate_ShouldReturnExpectedSizeStatistics [< 1 ms]
+  Correctas Programa1.Tests.StatisticsServiceTests.Calculate_ShouldHandleEqualValues [< 1 ms]
+  Correctas Programa1.Tests.StatisticsServiceTests.Calculate_ShouldRejectSingleValue [< 1 ms]
+  Correctas Programa1.Tests.StatisticsServiceTests.Calculate_ShouldHandleNegativeValues [< 1 ms]
+  Correctas Programa1.Tests.StatisticsServiceTests.Calculate_ShouldRejectEmptyList [< 1 ms]
+  Correctas Programa1.Tests.StatisticsServiceTests.Calculate_ShouldHandleTwoValues [< 1 ms]
+  Correctas Programa1.Tests.StatisticsServiceTests.Calculate_ShouldDetectOverflow [< 1 ms]
+  Correctas Programa1.Tests.FileReaderTests.ReadNumbers_ShouldReadSingleValidValue [12 ms]
+  Correctas Programa1.Tests.LinkedListTests.LinkedList_ShouldSupportGenericTypes [11 ms]
+  Correctas Programa1.Tests.FileReaderTests.ReadNumbers_ShouldRejectMissingFile [< 1 ms]
+  Correctas Programa1.Tests.LinkedListTests.Add_ShouldAllowDuplicateValues [1 ms]
+  Correctas Programa1.Tests.LinkedListTests.Add_ShouldPreserveInsertionOrder [< 1 ms]
+  Correctas Programa1.Tests.LinkedListTests.Add_ShouldSupportNegativeAndDecimalValues [< 1 ms]
+  Correctas Programa1.Tests.LinkedListTests.Add_ShouldIncreaseCount [< 1 ms]
+  Correctas Programa1.Tests.LinkedListTests.NewList_ShouldBeEmpty [< 1 ms]
+  Correctas Programa1.Tests.FileReaderTests.ReadNumbers_ShouldRejectInvalidValues(invalidValue: "abc") [9 ms]
+  Correctas Programa1.Tests.FileReaderTests.ReadNumbers_ShouldRejectInvalidValues(invalidValue: "NaN") [2 ms]
+  Correctas Programa1.Tests.FileReaderTests.ReadNumbers_ShouldRejectInvalidValues(invalidValue: "-Infinity") [1 ms]
+[xUnit.net 00:00:00.17]   Finished:    Programa1.Tests
+  Correctas Programa1.Tests.FileReaderTests.ReadNumbers_ShouldRejectInvalidValues(invalidValue: "15,5") [2 ms]
+  Correctas Programa1.Tests.FileReaderTests.ReadNumbers_ShouldRejectInvalidValues(invalidValue: "Infinity") [1 ms]
+  Correctas Programa1.Tests.FileReaderTests.ReadNumbers_ShouldReadValidFile [1 ms]
+  Correctas Programa1.Tests.FileReaderTests.ReadNumbers_ShouldRejectEmptyPath(path: "") [< 1 ms]
+  Correctas Programa1.Tests.FileReaderTests.ReadNumbers_ShouldRejectEmptyPath(path: "   ") [< 1 ms]
+  Correctas Programa1.Tests.FileReaderTests.ReadNumbers_ShouldReadDecimalValues [2 ms]
+  Correctas Programa1.Tests.FileReaderTests.ReadNumbers_ShouldRejectEmptyFile [1 ms]
+  Correctas Programa1.Tests.FileReaderTests.ReadNumbers_ShouldRejectEmptyLines [2 ms]
+
+La serie de pruebas se ejecutó correctamente.
+Pruebas totales: 32
+     Correcto: 32
+ Tiempo total: 0,5610 Segundos

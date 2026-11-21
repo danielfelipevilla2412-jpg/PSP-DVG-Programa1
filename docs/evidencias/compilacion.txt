@@ -1,0 +1,9 @@
+  Determinando los proyectos que se van a restaurar...
+  Todos los proyectos están actualizados para la restauración.
+  Programa1 -> C:\Users\danie\OneDrive\Desktop\PSP-DVG-Programa1\src\Programa1\bin\Debug\net9.0\Programa1.dll
+
+Compilación correcta.
+    0 Advertencia(s)
+    0 Errores
+
+Tiempo transcurrido 00:00:03.19

@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="530" viewBox="0 0 900 530">
+<rect width="900" height="530" fill="#080808"/>
+<style>
+rect.c{fill:#161616;stroke:#FF003C;stroke-width:2}
+text{fill:#F5F5F5;font-family:Arial;font-size:15px}
+.title{font-size:24px;font-weight:bold}
+path,line{stroke:#808080;stroke-width:2;fill:none}
+</style>
+<text x="450" y="35" text-anchor="middle" class="title">DIAGRAMA DE CLASES</text>
+<defs><marker id="a" markerWidth="8" markerHeight="8" refX="7" refY="3" orient="auto"><path d="M0 0 L7 3 L0 6" stroke="#808080"/></marker></defs>
+<g class="connections" marker-end="url(#a)">
+<path d="M450 120 V140 H145 V165"/>
+<path d="M450 120 V165"/>
+<path d="M450 140 H755 V165"/>
+<path d="M145 235 V315"/>
+<path d="M755 235 V275 H265 V315"/>
+<path d="M755 235 V315"/>
+<path d="M450 235 V260 H635 V355"/>
+<path d="M145 395 V440"/>
+</g>
+<rect class="c" x="330" y="60" width="240" height="60" rx="5"/>
+<text x="450" y="85" text-anchor="middle">Program</text>
+<text x="450" y="106" text-anchor="middle">Main / ProcessFile</text>
+<rect class="c" x="25" y="165" width="240" height="70" rx="5"/>
+<text x="145" y="190" text-anchor="middle">FileReader</text>
+<text x="145" y="215" text-anchor="middle">ReadNumbers(path)</text>
+<rect class="c" x="330" y="165" width="240" height="70" rx="5"/>
+<text x="450" y="190" text-anchor="middle">ConsoleUI</text>
+<text x="450" y="215" text-anchor="middle">ShowMenu / ShowResults</text>
+<rect class="c" x="635" y="165" width="240" height="70" rx="5"/>
+<text x="755" y="190" text-anchor="middle">StatisticsService</text>
+<text x="755" y="215" text-anchor="middle">Calculate(lista)</text>
+<rect class="c" x="25" y="315" width="240" height="80" rx="5"/>
+<text x="145" y="340" text-anchor="middle">LinkedList&lt;T&gt;</text>
+<text x="145" y="360" text-anchor="middle">Head / Tail / Count</text>
+<text x="145" y="380" text-anchor="middle">Add / GetEnumerator</text>
+<rect class="c" x="635" y="315" width="240" height="80" rx="5"/>
+<text x="755" y="340" text-anchor="middle">StatisticsResult</text>
+<text x="755" y="360" text-anchor="middle">Count / Mean</text>
+<text x="755" y="380" text-anchor="middle">StandardDeviation</text>
+<rect class="c" x="25" y="440" width="240" height="65" rx="5"/>
+<text x="145" y="465" text-anchor="middle">Node&lt;T&gt;</text>
+<text x="145" y="487" text-anchor="middle">Value / Next</text>
+</svg>

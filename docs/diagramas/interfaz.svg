@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="480" viewBox="0 0 900 480">
+<rect width="900" height="480" rx="10" fill="#080808"/>
+<rect width="900" height="40" rx="10" fill="#161616"/>
+<circle cx="22" cy="20" r="6" fill="#FF003C"/>
+<circle cx="44" cy="20" r="6" fill="#808080"/>
+<circle cx="66" cy="20" r="6" fill="#808080"/>
+<g font-family="monospace" font-size="20" fill="#F5F5F5">
+<text x="30" y="85" fill="#FF003C" font-size="26" font-weight="bold">PSP_01 / STATISTICAL ENGINE</text>
+<text x="30" y="115" fill="#808080">PSP0 | .NET 9 | ONLINE</text>
+<line x1="30" y1="135" x2="870" y2="135" stroke="#FF003C" stroke-width="2"/>
+<text x="30" y="175">[01] Procesar archivo de datos</text>
+<text x="30" y="210">[02] Salir del sistema</text>
+<text x="30" y="255" fill="#FF003C">PSP@ENGINE:~$ 01</text>
+<text x="30" y="290">Archivo: data/tamanos.txt</text>
+<rect x="30" y="315" width="840" height="135" rx="5" fill="#161616" stroke="#FF003C"/>
+<text x="50" y="345" fill="#FF003C">RESULTADOS ESTADÍSTICOS</text>
+<text x="50" y="375">Cantidad de elementos : 10</text>
+<text x="50" y="405">Media                 : 550.60</text>
+<text x="50" y="435">Desviación estándar   : 572.03</text>
+</g>
+</svg>

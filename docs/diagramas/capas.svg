@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="560" viewBox="0 0 800 560">
+<rect width="800" height="560" fill="#080808"/>
+<style>
+rect.c{fill:#161616;stroke:#FF003C;stroke-width:2}
+text{fill:#F5F5F5;font-family:Arial;text-anchor:middle;font-size:17px}
+.t{font-size:23px;font-weight:bold}
+path{stroke:#808080;fill:none;stroke-width:2}
+</style>
+<text x="400" y="35" class="t">ARQUITECTURA POR CAPAS</text>
+<rect class="c" x="60" y="65" width="680" height="90" rx="8"/>
+<text x="400" y="100" class="t">Coordinación</text>
+<text x="400" y="130">Program.cs</text>
+<path d="M400 155 V185 l-7 -9 m7 9 l7 -9"/>
+<rect class="c" x="60" y="185" width="680" height="90" rx="8"/>
+<text x="400" y="220" class="t">Presentación</text>
+<text x="400" y="250">ConsoleUI.cs</text>
+<path d="M400 275 V305 l-7 -9 m7 9 l7 -9"/>
+<rect class="c" x="60" y="305" width="330" height="90" rx="8"/>
+<text x="225" y="340" class="t">Servicios</text>
+<text x="225" y="370">StatisticsService.cs</text>
+<rect class="c" x="410" y="305" width="330" height="90" rx="8"/>
+<text x="575" y="340" class="t">Infraestructura</text>
+<text x="575" y="370">FileReader.cs</text>
+<path d="M225 395 V425 l-7 -9 m7 9 l7 -9 M575 395 V425 l-7 -9 m7 9 l7 -9"/>
+<rect class="c" x="60" y="425" width="680" height="100" rx="8"/>
+<text x="400" y="463" class="t">Modelos y estructuras de datos</text>
+<text x="400" y="495">StatisticsResult / LinkedList / Node</text>
+</svg>
